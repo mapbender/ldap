@@ -1,2 +1,4 @@
-*f5less.js
-*.sass-cache
+# IDEA Project Files
+.idea/
+vendor/
+bin/
