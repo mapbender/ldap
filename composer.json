@@ -4,7 +4,7 @@
   "keywords": [
     "mapbender",
     "ldap",
-    "security",
+    "security"
   ],
   "type": "library",
   "license": "MIT",
@@ -24,11 +24,10 @@
   ],
   "require": {
     "php": ">=5.3.3",
-    "imag/ldap-bundle":  "2.3.x"
-
+    "imag/ldap-bundle": "2.3.x"
   },
   "require-dev": {
-    "phpunit/phpunit": "^4.x",
+    "phpunit/phpunit": "4.x"
   },
   "autoload": {
     "psr-4": {
