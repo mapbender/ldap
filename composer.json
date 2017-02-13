@@ -22,12 +22,18 @@
       "email": "andriy.oblivantsev@wheregroup.com"
     }
   ],
+  "provide": {
+    "ext-ldap": "*"
+  },
   "require": {
     "php": ">=5.3.3",
     "imag/ldap-bundle": "2.3.x"
   },
   "require-dev": {
-    "phpunit/phpunit": "4.x"
+    "phpunit/phpunit": "4.x",
+    "symfony/symfony": "2.3.x",
+    "symfony/dependency-injection": "2.x",
+    "doctrine/orm": "~2.2,>=2.2.3"
   },
   "autoload": {
     "psr-4": {
