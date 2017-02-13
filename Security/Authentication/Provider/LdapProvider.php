@@ -1,5 +1,4 @@
 <?php
-
 namespace Mapbender\LdapBundle\Security\Authentication\Provider;
 
 use Symfony\Component\Security\Core\Authentication\Provider\AuthenticationProviderInterface;
