@@ -1,13 +1,11 @@
 <?php
-
 namespace Mapbender\LdapBundle\Security\User;
 
-use Symfony\Component\Security\Core\User\UserProviderInterface;
-use Symfony\Component\Security\Core\User\UserInterface;
-use Symfony\Component\Security\Core\Exception\UsernameNotFoundException;
-use Symfony\Component\Security\Core\Exception\UnsupportedUserException;
+use Mapbender\LdapBundle\Component\Ldap;
 use Symfony\Bridge\Monolog\Logger;
-//use Mapbender\Component\Ldap;
+use Symfony\Component\Security\Core\Exception\UsernameNotFoundException;
+use Symfony\Component\Security\Core\User\UserInterface;
+use Symfony\Component\Security\Core\User\UserProviderInterface;
 
 class LdapUserProvider implements UserProviderInterface
 {

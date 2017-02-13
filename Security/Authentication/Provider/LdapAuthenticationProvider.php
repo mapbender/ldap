@@ -11,7 +11,7 @@ use Symfony\Component\Security\Core\Exception\BadCredentialsException;
 use Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken;
 use Symfony\Component\Security\Core\Authentication\Provider\UserAuthenticationProvider;
 use Symfony\Bridge\Monolog\Logger;
-use Mapbender\Component\Ldap;
+use Mapbender\LdapBundle\Component\Ldap;
 use FOM\UserBundle\Entity\User;
 
 class LdapAuthenticationProvider extends UserAuthenticationProvider
