@@ -22,9 +22,6 @@
       "email": "andriy.oblivantsev@wheregroup.com"
     }
   ],
-  "provide": {
-    "ext-ldap": "*"
-  },
   "require": {
     "php": ">=5.3.3",
     "imag/ldap-bundle": "2.3.x"
