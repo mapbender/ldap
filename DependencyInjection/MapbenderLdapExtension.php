@@ -17,7 +17,6 @@ class MapbenderLdapExtension extends Extension
     {
         $loader = new XmlFileLoader($container, new FileLocator(__DIR__ . '/../Resources/config'));
         $loader->load('security.xml');
-        $loader->load('services.xml');
     }
 
     /**
